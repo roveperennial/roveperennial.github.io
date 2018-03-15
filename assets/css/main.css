@@ -2600,13 +2600,13 @@
 /* One */
 
 	#one:before {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/rove_header.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: '';
 		display: block;
-		height: 15em;
+		height: 30em;
 		width: 100%;
 	}
 
