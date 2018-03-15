@@ -2600,14 +2600,14 @@
 /* One */
 
 	#one:before {
-		background-image: url("../../images/wow_logo.jpg");
+		background-image: url("../../images/bfa_logo.png");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
 		content: '';
 		display: block;
-		height: 150px;
-		width: 337px;
+		height: 360px;
+		width: 640px;
 	}
 
 /* Footer */
