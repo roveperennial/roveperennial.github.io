@@ -9,7 +9,7 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: rgb(0,50,200);
+    background-color: rgb(0,46,115);
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
 }
@@ -25,7 +25,7 @@
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-    color: rgb(0,150,255);
+    color: rgb(50,150,255);
 }
 
 /* Style page content */
