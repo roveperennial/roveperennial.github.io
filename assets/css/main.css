@@ -16,9 +16,9 @@
 
 /* The navigation menu links */
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 25px 10px 25px 10px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     color: rgb(255,255,255);
     display: block;
 }
@@ -26,6 +26,11 @@
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     color: rgb(50,150,255);
+}
+
+.imageavatar {
+  height: 50%;
+  width: 50%;
 }
 
 /* Style page content */
