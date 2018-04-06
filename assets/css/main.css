@@ -4,7 +4,7 @@
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
+    width: 200px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -12,12 +12,14 @@
     background-color: rgb(0,46,115);
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
-    font-family: Verdana;
+    font-family: Helvetica;
+    text-align: center;
+
 }
 
 /* The navigation menu links */
 .sidenav a {
-    padding: 25px 10px 25px 10px;
+    padding: 25px 15px 25px 15px;
     text-decoration: none;
     font-size: 18px;
     color: #f1f1f1f1;
@@ -31,19 +33,22 @@
 
 /* header image margin to move out of sidebar */
 .headimage {
-  margin-left: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 /* Style page content */
 .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
+    margin-left: 200px; /* Same as the width of the sidebar */
     padding: 25px 10px;
-    font-family: Verdana;
+    font-family: Helvetica;
 }
 
 .screenshotgallery {
   max-width: 750px;
-  margin-left: 160px;
+  margin-left: 200px;
   margin-top: 25px;
   padding: 10px;
   background-color: white;
@@ -52,8 +57,4 @@
 body {
   background-color: #f1f1f1;
       font-family: Verdana;
-}
-
-#WCL {
-  margin-left: 30px;
 }
