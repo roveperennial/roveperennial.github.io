@@ -14,7 +14,6 @@
     padding-top: 20px;
     font-family: Helvetica;
     text-align: center;
-
 }
 
 /* The navigation menu links */
@@ -45,14 +44,25 @@
     padding: 25px 10px;
     font-family: Helvetica;
 }
-
+/* screenshot "column" */
 .screenshotgallery {
+  float: left;
+  width: 50%;
   max-width: 750px;
+  align-items: center;
   margin-left: 200px;
   margin-top: 25px;
   padding: 10px;
   background-color: white;
 }
+
+/* screenshot row */
+.screenshotrow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 body {
   background-color: #f1f1f1;
