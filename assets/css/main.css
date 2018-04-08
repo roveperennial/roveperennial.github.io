@@ -10,19 +10,18 @@ ul {
 
 li {
   float: left;
-  padding-left: 7.5%;
-  padding-top: 2.5%;
 }
 
 li a {
     display: block;
     color: white;
     text-decoration: none;
+    padding: 10px 50px;
 }
 
 /* The sidebar menu */
 .topnav {
-    height: 5%; /* Full-height: remove this if you want "auto" height */
+/*    height: 5%;  Full-height: remove this if you want "auto" height */
     margin-left: 2.5%;
     width: 95%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
