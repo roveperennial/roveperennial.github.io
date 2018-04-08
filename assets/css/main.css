@@ -4,22 +4,21 @@
 /* The sidebar menu */
 .topnav {
     height: 5%; /* Full-height: remove this if you want "auto" height */
-    width: 100%; /* Set the width of the sidebar */
+    width: 95%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 2; /* Stay on top */
     top: 0; /* Stay at the top */
-    left: 0;
     background-color: rgb(0,46,115);
     overflow-y: hidden; /* Disable horizontal scroll */
-    padding-top: 5px;
+    padding-top: 1%;
+    padding-left: 1.5%;
     font-family: Helvetica;
-    max-width: 100%;
 }
 
 /* The navigation menu links */
 .topnav a {
     float: left;
-    padding: 1% 2%;
+    padding: 1%;
     text-decoration: none;
     font-size: 20px;
     color: #f1f1f1f1;
@@ -31,12 +30,20 @@
     background-color: #ddd;
 }
 
+.headimage {
+  padding-top: 7.5%;
+  text-align: center;
+}
+
 /* Style page content */
 .main {
-    padding: 25px 10px;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
     font-family: Helvetica;
-    max-width: 100%;
+    width: 60%;
+    height: 100%;
     text-align: center;
+    background-color: rgb(200,200,200);
 }
 /* screenshot "column" */
 .screenshotgallery {
