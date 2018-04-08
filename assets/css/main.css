@@ -1,6 +1,7 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
+/* list defaults */
 ul {
     list-style-type: none;
     margin: 0;
@@ -16,6 +17,25 @@ li a {
     display: inline-block;
     color: white;
     text-decoration: none;
+}
+
+/* mobile/low res navbar */
+@media only screen and (max-width: 1000px) {
+
+  .topnav {
+    height: auto;
+    overflow-y: scroll;
+  }
+
+  .topnav li {
+    width: 90%;
+    border-bottom: none;
+    line-height: 50px;
+    font-size: 1em;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: block;
+  }
 }
 
 /* The top navigation menu */
@@ -48,17 +68,6 @@ li a {
     color: rgb(0,46,115);
     background-color: #ddd;
     transition: .5s background-color;
-}
-
-@media only screen and (max-width: 1000px) {
-  .topnav li {
-    width: 200px;
-    overflow-y: auto;
-    border-bottom: none;
-    line-height: 50px;
-    font-size: 1.4em;
-    display: inline-block;
-  }
 }
 
 .headimage {
