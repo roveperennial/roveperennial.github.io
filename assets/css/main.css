@@ -3,7 +3,7 @@
 
 /* The sidebar menu */
 .topnav {
-    height: 7.5%; /* Full-height: remove this if you want "auto" height */
+    height: 5%; /* Full-height: remove this if you want "auto" height */
     width: 100%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 2; /* Stay on top */
@@ -13,12 +13,13 @@
     overflow-y: hidden; /* Disable horizontal scroll */
     padding-top: 5px;
     font-family: Helvetica;
+    max-width: 100%;
 }
 
 /* The navigation menu links */
 .topnav a {
     float: left;
-    padding: 2.5% 2.5%;
+    padding: 1% 2%;
     text-decoration: none;
     font-size: 20px;
     color: #f1f1f1f1;
@@ -32,7 +33,6 @@
 
 /* Style page content */
 .main {
-    margin-left: 200px; /* Same as the width of the sidebar */
     padding: 25px 10px;
     font-family: Helvetica;
     max-width: 100%;
