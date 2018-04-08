@@ -86,6 +86,7 @@ li a {
   margin-left: 10%;
   padding: 15px;
   background-color: lightgray;
+  border: 2.5px solid black;
 }
 
 /* screenshot row */
