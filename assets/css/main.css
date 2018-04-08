@@ -16,14 +16,14 @@ li a {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 10px 50px;
 }
 
 /* The sidebar menu */
 .topnav {
-/*    height: 5%;  Full-height: remove this if you want "auto" height */
-    margin-left: 2.5%;
-    width: 95%; /* Set the width of the sidebar */
+/*    height: 5%;  /* Full-height: remove this if you want "auto" height */
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -37,6 +37,10 @@ li a {
 .topnav a {
     font-size: 125%;
     color: lightgray;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -46,7 +50,7 @@ li a {
 }
 
 .headimage {
-  padding-top: 7.5%;
+  padding-top: 75px;
   padding-bottom: 1em;
   text-align: center;
 }
