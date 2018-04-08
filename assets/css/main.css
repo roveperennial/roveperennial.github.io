@@ -33,7 +33,7 @@
 /* header image margin to move out of sidebar */
 .headimage {
   text-align: center;
-  margin-left: auto;
+  margin-left: 200px;
   margin-right: auto;
   width: 80%;
 }
@@ -43,7 +43,8 @@
     margin-left: 200px; /* Same as the width of the sidebar */
     padding: 25px 10px;
     font-family: Helvetica;
-    max-width: 100%
+    max-width: 100%;
+    text-align: center;
 }
 /* screenshot "column" */
 .screenshotgallery {
