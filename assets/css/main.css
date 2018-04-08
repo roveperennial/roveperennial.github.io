@@ -13,14 +13,14 @@ li {
 }
 
 li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-decoration: none;
 }
 
-/* The sidebar menu */
+/* The top navigation menu */
 .topnav {
-/*    height: 5%;  /* Full-height: remove this if you want "auto" height */
+    height: 50px;  /* Full-height: remove this if you want "auto" height */
     margin-left: 5%;
     margin-right: 5%;
     width: 90%; /* Set the width of the sidebar */
@@ -28,7 +28,7 @@ li a {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     background-color: rgb(0,46,115);
-    overflow-y: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden; /* Disable y-scroll */
     font-family: Helvetica;
     border: 5px solid lightgray;
 }
@@ -37,16 +37,28 @@ li a {
 .topnav a {
     font-size: 125%;
     color: lightgray;
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-left: 2.5em;
+    margin-right: 1em;
+    margin-top: 10px;
+    line-height: 30px;
 }
 
 /* When you mouse over the navigation links, change their color */
 .topnav a:hover {
     color: rgb(0,46,115);
     background-color: #ddd;
+    transition: .5s background-color;
+}
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+  }
 }
 
 .headimage {
