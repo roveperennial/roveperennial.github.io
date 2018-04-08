@@ -43,6 +43,7 @@
     margin-left: 200px; /* Same as the width of the sidebar */
     padding: 25px 10px;
     font-family: Helvetica;
+    max-width: 100%
 }
 /* screenshot "column" */
 .screenshotgallery {
