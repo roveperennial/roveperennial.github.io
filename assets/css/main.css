@@ -10,8 +10,8 @@ ul {
 
 li {
   float: left;
-  padding-left: 6.5em;
-  padding-top: 1.25em;
+  padding-left: 7.5%;
+  padding-top: 2.5%;
 }
 
 li a {
@@ -36,7 +36,7 @@ li a {
 
 /* The navigation menu links */
 .topnav a {
-    font-size: 1.25em;
+    font-size: 125%;
     color: lightgray;
 }
 
@@ -70,7 +70,7 @@ li a {
   align-items: center;
   margin-left: 10%;
   padding: 15px;
-  background-color: white;
+  background-color: lightgray;
 }
 
 /* screenshot row */
