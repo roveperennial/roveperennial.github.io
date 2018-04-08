@@ -53,6 +53,7 @@ li a {
 @media only screen and (max-width: 1000px) {
   .topnav li {
     width: 200px;
+    overflow-y: auto;
     border-bottom: none;
     line-height: 50px;
     font-size: 1.4em;
