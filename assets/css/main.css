@@ -19,28 +19,6 @@ li a {
     text-decoration: none;
 }
 
-/* mobile/low res navbar */
-@media only screen and (max-width: 1000px) {
-
-  .topnav {
-    width: 10%;
-    margin-left: 2.5%;
-    overflow-y: scroll;
-  }
-
-  .topnav li {
-    border-bottom: none;
-    line-height: 50px;
-    font-size: 1em;
-    display: block;
-  }
-
-  .main {
-    width: 60%;
-  }
-
-}
-
 /* The top navigation menu */
 .topnav {
     height: 50px;  /* Full-height: remove this if you want "auto" height */
@@ -112,4 +90,55 @@ li a {
 body {
   background-color: #f1f1f1;
       font-family: Verdana;
+}
+
+/* MOBILE / LOWRES */
+/* NAV BAR */
+@media only screen and (max-width: 1000px) {
+
+  .headimage {
+    padding-top: 75px;
+    padding-bottom: 1em;
+    text-align: center;
+  }
+
+  /* The top navigation menu */
+  .topnav {
+      height: 50px;  /* Full-height: remove this if you want "auto" height */
+      margin-left: 5%;
+      margin-right: 5%;
+      width: 90%; /* Set the width of the sidebar */
+      position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+      z-index: 1; /* Stay on top */
+      top: 0; /* Stay at the top */
+      background-color: rgb(0,46,115);
+      overflow-y: hidden; /* Disable y-scroll */
+      font-family: Helvetica;
+      border: 5px solid lightgray;
+  }
+
+  .topnav li {
+    border-bottom: none;
+    line-height: 50px;
+    font-size: .7em;
+    display: block;
+  }
+
+  /* The navigation menu links */
+  .topnav a {
+      color: lightgray;
+      margin-left: 0.25em;
+      margin-right: 0.25em;
+      margin-top: 10px;
+      line-height: 30px;
+  }
+
+  .main {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 75%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
 }
