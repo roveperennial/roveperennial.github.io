@@ -22,7 +22,7 @@ li a {
 /* The top navigation menu */
 .topnav {
     height: 50px;  /* Full-height: remove this if you want "auto" height */
-    width: 100%; /* Set the width of the sidebar */
+    width: 90%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -30,6 +30,7 @@ li a {
     overflow-y: hidden; /* Disable y-scroll */
     font-family: Helvetica;
     border: 5px solid lightgray;
+    margin-left: 2.5%;
 }
 
 /* The navigation menu links */
@@ -37,7 +38,7 @@ li a {
     font-size: 125%;
     color: lightgray;
     margin-left: 2.5em;
-    margin-right: 1em;
+    margin-right: 2.5em;
     margin-top: 10px;
     line-height: 30px;
 }
@@ -61,10 +62,10 @@ li a {
     font-family: Helvetica;
     padding-top: 0.25em;
     width: 80%;
-    height: 100%;
     text-align: center;
     background-color: rgb(200,200,200);
     border: 2.5px solid black;
+    overflow-y: hidden;
 }
 /* screenshot "column" */
 .screenshotgallery {
