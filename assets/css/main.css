@@ -23,19 +23,22 @@ li a {
 @media only screen and (max-width: 1000px) {
 
   .topnav {
-    height: auto;
+    width: 10%;
+    margin-left: 2.5%;
     overflow-y: scroll;
   }
 
   .topnav li {
-    width: 90%;
     border-bottom: none;
     line-height: 50px;
     font-size: 1em;
-    margin-left: 35%;
-    margin-right: 35%;
     display: block;
   }
+
+  .main {
+    width: 60%;
+  }
+
 }
 
 /* The top navigation menu */
