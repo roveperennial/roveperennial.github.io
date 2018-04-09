@@ -22,9 +22,7 @@ li a {
 /* The top navigation menu */
 .topnav {
     height: 50px;  /* Full-height: remove this if you want "auto" height */
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%; /* Set the width of the sidebar */
+    width: 100%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -106,8 +104,6 @@ body {
   .topnav {
       height: auto;  /* Full-height: remove this if you want "auto" height */
       margin-top: 0.5%;
-      margin-left: 5%;
-      margin-right: 5%;
       width: 90%; /* Set the width of the sidebar */
       position: fixed; /* Fixed Sidebar (stay in place on scroll) */
       z-index: 1; /* Stay on top */
